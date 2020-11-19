@@ -5,11 +5,15 @@ public class ServicePrevu {
         private int volumeCM;
         private int volumeTD;
         private int volumeTP;
+        private Enseignant e;
+        private UE u;
 
-    public ServicePrevu(int volumeCM, int volumeTD, int volumeTP) {
+    public ServicePrevu(int volumeCM, int volumeTD, int volumeTP, Enseignant e, UE u) {
         this.volumeCM = volumeCM;
         this.volumeTD = volumeTD;
         this.volumeTP = volumeTP;
+        this.e = e;
+        this.u = u;
     }
 
     public int getVolumeCM() {
@@ -24,6 +28,14 @@ public class ServicePrevu {
         return volumeTP;
     }
 
+    public Enseignant getE() {
+        return e;
+    }
+
+    public UE getU() {
+        return u;
+    }
+    
     public void setVolumeCM(int volumeCM) {
         this.volumeCM = volumeCM;
     }
@@ -35,6 +47,14 @@ public class ServicePrevu {
     public void setVolumeTP(int volumeTP) {
         this.volumeTP = volumeTP;
     }
-        
+
+    public void setE(Enseignant e) {
+        this.e = e;
+    }
+
+    public void setU(UE u) {
+        this.u = u;
+    }
+    
         
 }
