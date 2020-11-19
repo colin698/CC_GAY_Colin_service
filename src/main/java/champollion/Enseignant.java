@@ -78,7 +78,7 @@ public class Enseignant extends Personne {
         }
     }
     
-    public void ajouteIntervention(Salle s, UE u, Enseignant e, Date debut, int duree, TypeIntervention type){
+     public void ajouteIntervention(Salle s, UE u, Enseignant e, Date debut, int duree, TypeIntervention type){
         Intervention inter = new Intervention(s, u, e, debut, duree, type);
         interventions.add(inter);
     }
