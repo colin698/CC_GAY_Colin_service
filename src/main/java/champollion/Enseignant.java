@@ -9,6 +9,8 @@ public class Enseignant extends Personne {
     }
 
     /**
+     * 
+     * 
      * Calcule le nombre total d'heures prévues pour cet enseignant en "heures équivalent TD" Pour le calcul : 1 heure
      * de cours magistral vaut 1,5 h "équivalent TD" 1 heure de TD vaut 1h "équivalent TD" 1 heure de TP vaut 0,75h
      * "équivalent TD"
