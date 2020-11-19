@@ -18,6 +18,7 @@ public class Enseignant extends Personne {
      */
     public int heuresPrevues() {
         // TODO: Implémenter cette méthode
+        
         throw new UnsupportedOperationException("Pas encore implémenté");
     }
 
