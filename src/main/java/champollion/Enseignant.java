@@ -15,6 +15,7 @@ public class Enseignant extends Personne {
      *
      * @return le nombre total d'heures "équivalent TD" prévues pour cet enseignant, arrondi à l'entier le plus proche
      *
+     * 
      */
     public int heuresPrevues() {
         // TODO: Implémenter cette méthode
